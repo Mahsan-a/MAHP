@@ -1,6 +1,6 @@
-This repository contains the Jupyter Notebooks used for the analysis and result generation of our recent study on # EPHIC Extended Prediction of Hypoglycemia by Integrating Continuous Wavelet Transform
+This repository contains the Jupyter Notebooks used for the analysis and result generation of our recent study on # MAHP Multi-modal Approach for Hypoglycemia Prediction 
 
-EPHIC is a predictive framework that uses advanced signal processing techniques, and deep learning to leverage multimodal data commonly collected as part of T1D self-management for extended hypoglycemia prediction.
+MAHP is a predictive framework that uses advanced signal processing techniques, and deep learning to leverage multimodal data commonly collected as part of T1D self-management for extended hypoglycemia prediction.
 The internal training, validation and testing dataframe is created from the seperate files in the T1DEXI dataset using all the physiological and behavioural data (CGM readings, basal insulin doses, meal timings with carbohydrate estimates, heart rate signals), and personal characteristics (demographics, diabetes history) to predict hypoglycemia. The external evaluation dataset dataset is created from the seperate files in the T1DEXIP dataset from a pediatric T1D dataset including the physiological and behavioural data, and personal characteristics.
 
 The code here directly reproduces the figures and metrics reported in the manuscript. These notebooks focus on model training, evaluation, and result visualization for both adult test set and external evaluation on pediatric cohort.
