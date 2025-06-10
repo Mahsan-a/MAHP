@@ -1,0 +1,35 @@
+
+STATISTICAL ANALYSIS REPORT
+===========================
+
+Cross-Validation Performance Analysis (n=8 folds)
+
+DESCRIPTIVE STATISTICS:
+-----------------------
+Accuracy:     0.8336 ± 0.0118
+Sensitivity:  0.8192 ± 0.0136
+Specificity:  0.8360 ± 0.0123
+Precision:    0.5515 ± 0.0333
+F1-Score:     0.6815 ± 0.0294
+AUC-ROC:      0.9100 ± 0.0109
+
+STATISTICAL SIGNIFICANCE TESTS:
+--------------------------------
+One-sample t-test vs Random Classifier:
+  Accuracy vs 0.5:  t=74.745, p=2.018e-11 ***
+  AUC-ROC vs 0.5:   t=99.924, p=2.649e-12 ***
+
+NORMALITY TESTS (Shapiro-Wilk):
+--------------------------------
+  Accuracy:  W=0.879, p=0.184 (Normal)
+  AUC-ROC:   W=0.951, p=0.718 (Normal)
+
+95% CONFIDENCE INTERVALS:
+-------------------------
+Accuracy:     [0.825, 0.842]
+AUC-ROC:      [0.902, 0.918]
+
+NOTES:
+------
+* p < 0.05, ** p < 0.01, *** p < 0.001, ns = not significant
+Statistical tests assume independence of fold results.
