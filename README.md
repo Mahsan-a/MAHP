@@ -8,7 +8,7 @@ The internal training, validation and testing dataframe is created from the sepe
 
 - **Multi-modal Architecture**: Combines CNN for temporal pattern recognition with dense networks for clinical features
 - **Cross-Population Validation**: Validated on both adult and pediatric populations
-- **Multiple Prediction Horizons**: Supports 6-hour and 24-hour prediction windows
+- **Multiple Prediction Horizons**: Supports 6-hour, 8-hour, 12-hour, and 24-hour prediction windows
 - **Comprehensive Validation**: Includes ROC analysis, calibration assessment, and feature importance evaluation
 - **Clinical Focus**: Optimized for high sensitivity to minimize missed hypoglycemic events
 
